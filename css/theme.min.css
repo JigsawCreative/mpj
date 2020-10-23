@@ -19747,7 +19747,7 @@ footer .wpcf7 input[type="submit"] i {
 
 @media(max-width: 980px) {
   .wrc-main {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
   }
 }
 
