@@ -61,7 +61,7 @@
             <?php 
                 $images = get_field('timber_images');
                 if( $images ): ?>
-                <ul class="auto-columns">
+                <ul>
                     <?php foreach( $images as $image ): ?>
                         <li>
                             <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />

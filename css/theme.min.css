@@ -19779,10 +19779,11 @@ footer .wpcf7 input[type="submit"] i {
 }
 
 .timber-images ul {
-  /*display: flex;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   padding-left: 0px;
-  /*justify-content: space-around;*/
   text-align: center;
 }
 
@@ -19930,9 +19931,4 @@ footer .wpcf7 input[type="submit"] i {
 .wrc-bullets li {
   margin-bottom: 1rem;
   max-width: 90%;
-}
-
-.auto-columns {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
