@@ -4,8 +4,6 @@
 
     <main class="wrc-main main">
 
-        <h2 class="grey-title top-right"><?php the_title();?></h2>
-
         <?php $timber_bg_image = get_field( 'timber_bg_image' ); ?>
 
         <div class="wrc-column-one" style="background: linear-gradient(90deg, rgba(2,0,36,0.9) 0%, rgba(0,212,255,0.9) 0%, rgba(255,255,255,0.9) 0%), url(<?=$timber_bg_image; ?>)">
@@ -75,6 +73,8 @@
         </div>
         
         <div class="wrc-column-two">
+            
+            <h2 class="grey-title top-right"><?php the_title();?></h2>
 
             <h2><?php the_field( 'red_cedar_title' ); ?></h2>
 
